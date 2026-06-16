@@ -10,9 +10,11 @@ To train a machine learning model that can classify iris flowers into different 
 - Python
 - VS Code
 - Scikit-learn
+- Pandas
+- NumPy
 
 ## Dataset
-Iris Dataset
+Iris Dataset (built-in dataset from Scikit-learn)
 
 ## Algorithm Used
 Decision Tree Classifier
@@ -25,4 +27,26 @@ Decision Tree Classifier
 5. Evaluated model accuracy.
 
 ## Result
-The model successfully classified iris flowers with high accuracy.
+The model successfully classified iris flowers with good accuracy.
+
+## Project Structure
+- ai_classification.py → main code file
+- screenshots/ → output images
+- requirements.txt → dependencies
+
+## How to Run
+1. Clone the repository
+2. Open terminal in project folder
+3. Install dependencies:
+   pip install -r requirements.txt
+4. Run the program:
+   python ai_classification.py
+
+## Requirements
+- Python 3.x
+- pandas
+- numpy
+- scikit-learn
+
+## Author
+Kusuma Srivalli
